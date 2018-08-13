@@ -5,6 +5,7 @@ class Film extends Component {
     return (
       <div className="movie">
         <h4 className="movie-title">{this.props.title}</h4>
+        <a href={this.props.link}>See More</a>
 
       </div>
     )

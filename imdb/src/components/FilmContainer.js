@@ -6,9 +6,7 @@ class FilmContainer extends Component {
 
     const filmNodes = this.props.data.map(film => {
       return (
-        <Film title={film.title} key={film.id}>
-          <a href={film.link}>Show Film</a>
-          {film.link}
+        <Film title={film.title} key={film.id} link={film.link}>
         </Film>
       );
     });
