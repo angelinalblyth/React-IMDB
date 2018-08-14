@@ -26,7 +26,7 @@ class IMDBContainer extends Component {
         return <div className="IMDB-container">
           <p>UK Opening This Week</p>
         <FilmContainer data={this.state.data} />
-          <SeeMore />
+          <SeeMore /><p>>></p>
           <GetShowTimes />
         </div>
       }

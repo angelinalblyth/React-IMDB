@@ -10,11 +10,8 @@ class FilmContainer extends Component {
         </Film>
       );
     });
-
     return <div className="film-list">{filmNodes}</div>;
   }
 }
-
-
 
 export default FilmContainer;
